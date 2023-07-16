@@ -262,7 +262,6 @@ p{
 input{
     padding-left: 2px;
     outline: none;
-    width: 300px;
 }
 .main ul{
     list-style: none;
@@ -384,5 +383,8 @@ input{
         list-style: none;
         display: flex;
         gap: 32px;
+    }
+    input{
+        width: 300px;
     }
 }
