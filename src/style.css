@@ -1,0 +1,382 @@
+:root {
+    --green: #96BB7C;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier Prime', monospace;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oxanium', cursive;
+}
+
+main {
+    max-width: 380px;
+    margin: 28px auto;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.hr hr {
+    border: 1px solid rgb(0, 0, 0);
+    margin-top: 5px;
+    width: 40px;
+    height: 8px;
+    background-color: black;
+}
+
+.mobil-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+p{
+    color: gray;
+}
+.high img {
+    width: 320px;
+}
+
+.text-high h6 {
+    color: var(--green);
+}
+
+.text-high h1 {
+    font-size: 41px;
+}
+
+.text-high p {
+    color: gray;
+    font-size: 14px;
+}
+
+.text-high {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.btns .join {
+    background-color: var(--green);
+    color: white;
+    width: 100px;
+    height: 41px;
+    border: none;
+}
+
+.btns .learn {
+    border: 1px solid var(--green);
+    color: var(--green);
+    background-color: transparent;
+    width: 100px;
+    height: 41px;
+}
+
+.btns .learn:hover {
+    background-color: var(--green);
+    color: white;
+    cursor: pointer;
+    transition: all .3s;
+}
+.btns{
+    display: flex;
+    gap: 10px;
+}
+
+.high {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 23px;
+}
+.text-video{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.text-video h6{
+    color: var(--green);
+}
+.text-video p{
+    color: gray;
+    text-align: center;
+    font-weight: 300;
+}
+.video img{
+    width: 300px;
+}
+.video{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.pc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    text-align: center;
+    box-shadow: 2px 2px 4px gray;
+    width: auto;
+    height: auto;
+    padding: 112px;
+}
+.pc p,.school p{
+    color: gray;
+}
+.school{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    text-align: center;
+    box-shadow: 2px 2px 4px gray;
+    width: auto;
+    height: auto;
+    padding: 100px;
+}
+.text-problems{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.text-problems p{
+    color: gray;
+    font-weight: 300;
+}
+.text-problems h6{
+    color: var(--green);
+}
+.imgs{
+    width: 350px;
+}
+.text-learn-more{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+}
+.learn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-learn-more p{
+    color: gray;
+}
+.learn img{
+    width: 14px;
+}
+.learn h6{
+    color: var(--green);
+}
+.learn-more{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+}
+.card-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+}
+.card-2 img{
+    box-shadow: 2px 2px 4px gray;
+}
+.card-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    text-align: center;
+    padding: 100px;
+    box-shadow: 2px 2px 4px gray;
+}
+.star{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+.card-4 p{
+    color: gray;
+}
+.sub{
+    width: 100%;
+    height: auto;
+    background-color: #2D4059;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+
+}
+.text-sub h6{
+    color: var(--green);
+}
+.text-sub h1,p{
+    color: white;
+}
+.text-sub{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    text-align: center;
+}
+.input{
+    display: flex;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+input{
+    padding-left: 2px;
+    outline: none;
+    width: 300px;
+}
+.main ul{
+    list-style: none;
+}
+.ac-2{
+    color: black;
+    font-weight: 500;
+}
+.ac{
+    color: gray;
+    font-weight: 300;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding-top:30px ;
+}
+.master p{
+    color: gray;
+}
+.master div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+.copy p {
+    color: gray;
+    font-weight: 200;
+}
+.copy{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    padding-top:20px ;
+    gap: 14px;
+}
+@media only screen and (min-width:900px) {
+    main{
+        max-width: 1200px;
+        margin: 28px auto;
+    }
+    h1{
+        font-size: 32px;
+    }
+    h2{
+        font-size: 32px;
+    }
+    .high{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .high img{
+        width: 550px;
+    }
+    .high h1{
+        font-size: 80px;
+    }
+    .btns .learn{
+        width: 150px;
+        height: 40px;
+    }
+    .btns .join{
+        width: 150px;
+        height: 40px;
+    }
+    .video img{
+        width: 460px;
+    }
+    .cards{
+        flex-direction: row;
+        gap: 140px;
+        align-items: center;
+    }
+    .learn-more{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .imgs{
+        width: 460px;
+    }
+    .card-2{
+        flex-direction: row;
+        gap: 30px;
+    }
+    .star{
+        flex-direction: row;
+        gap: 30px;
+    }
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .master div{
+        flex-direction: row;
+        gap: 10px;
+    }
+    .master{
+        padding-top:32px ;
+    }
+    .hr{
+        display: none;
+    }
+    .mobil-header ul{
+        list-style: none;
+        display: flex;
+        gap: 32px;
+    }
+}
