@@ -387,4 +387,7 @@ input{
     input{
         width: 300px;
     }
+    .mobil-header .btns{
+        display: flex;
+    }
 }
